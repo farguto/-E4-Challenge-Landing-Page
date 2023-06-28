@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ 
+
+body {
+  background: #4b6cb7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #182848,
+    #4b6cb7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #182848,
+    #4b6cb7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Roboto", sans-serif;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  /* padding: 2%; */
+  background-color: white;
+  width: 80%;
+  gap: 10%;
+  margin-left: 10%;
+ 
+ 
+}
+
+hr {
+ 
+  width: 100%;
+  display: flex;
+ 
+}
+
+button {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  padding: 2%;
+  border-radius: 30px;
+  width: 30%;
+}
+
+h1 {
+  width: 50%;
+}
+
+#left-button {
+  background-color: black;
+  color: white;
+}
+
+#hero {
+  margin-top: 8%;
+ 
+  height: 700px;
+  display: flex;
+  flex-direction: column   ; 
+}
+
+.hero-container {
+    display:flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+#hero-div {
+  width: 50%;
+  height: 100px;
+ 
+  margin-left: 10%;
+
+}
+
+
+#hero-div h1, h4, button {
+margin-bottom: 6%;
+   
+  }
+
+
+#hero-image img {
+  width: 75%;
+  margin-left: 20%;
+ 
+}
+
+#info {
+  height: 700px;
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+#info-div {
+  width: 60%;
+  padding: 5%;
+  font-size: 20px;
+  line-height: 2;
+  margin-bottom: 15%;
+ 
+  
+}
+ 
