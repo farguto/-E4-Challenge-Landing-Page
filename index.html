@@ -4,9 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E3 - Challenge Landing Page -</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
+
+ 
+      <img id="logo" src="\images\logo.jpg" alt="Logo de Webydatos" />
+      <nav class="navbar">
+      
+  
+        <label for="menu-toggle" class="menu-label">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu-toggle" />
+  
+        <ul class="lista">
+          <li><a href="#" class="navbar-link"> Inicio </a></li>
+          <li><a href="#" class="navbar-link"> Servicios </a></li>
+          <li><a href="#" class="navbar-link"> Clientes </a></li>
+          <li><a href="#" class="navbar-link"> Contacto </a></li>
+        </ul>
+      </nav>
+ 
+
+
     <main>
       <section id="hero">
         <div class="hero-container">
@@ -41,6 +69,114 @@
         </div>
         <hr />
       </section>
+
+      <section class="cards">
+        <div class="cards-container">
+          <div class="cards-text">
+            <h1>Nuestros servicios</h1>
+
+            <h4>
+              Desarrollo de sitios web y aplicaciones utilizando tecnologías de
+              vanguardia.
+            </h4>
+          </div>
+
+          <div class="servicios">
+            <div class="card">
+              <i class="fa-solid fa-laptop-code"></i>
+              <h3>Responsive Design</h3>
+              <p>
+                Programamos proyectos para que se adapten a diferentes
+                dispositivos.
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-regular fa-compass"></i>
+              <h3>Análisis de datos</h3>
+              <p>
+                Analizamos los datos de tu sitio para poder tomar mejores
+                decisiones.
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-brands fa-wordpress"></i>
+              <h3>Desarrollo Web y CMS</h3>
+              <p>
+                Creamos sitios seguros y personalizados utilizando WordPress.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+      </section>
+
+      <section class="contact">
+        <div class="contact-div">
+          <h1>Contactanos</h1>
+
+          <div class="contact-div-container">
+            <div>
+              <h4>Buenos Aires, Argentina</h4>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  Avenida Cabildo 1400.
+                </li>
+                <li>
+                  <i class="fa-regular fa-envelope"></i>
+                  consultas@webydatos.com.ar
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  1144469644
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4>Dublin, Ireland</h4>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  444 Fake Street
+                </li>
+                <li>
+                  <i class="fa-regular fa-envelope"></i>
+                  inquiries@webydatos.com
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  (+353) 1165333644
+                </li>
+              </ul>
+            </div>
+            <img id="equipo" src="./images/foto1.jpg" alt="equipo de trabajo" />
+          </div>
+
+          <div class="social-media">
+            <a href="https://www.twitter.com" target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+
+            <a href="https://www.instagram.com" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+
+            <a href="https://www.facebook.com" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+
+        <hr />
+        <br />
+        <br />
+        <br />
+      </section>
+      <footer>
+        <img id="logo-footer" src="./images/logo.jpg" alt="Logo de Webydatos" />
+        <h4>Copyright Webydatos</h4>
+      </footer>
     </main>
   </body>
 </html>
