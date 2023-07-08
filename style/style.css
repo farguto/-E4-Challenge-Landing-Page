@@ -489,6 +489,10 @@ footer img {
     width: 120%;
   }
 
+  hr {
+    display: none;
+  }
+
   .cards-container {
     font-size: 15px;
     gap: 5%;
