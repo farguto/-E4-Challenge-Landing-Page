@@ -133,7 +133,7 @@ a:hover {
   top: 0;
   padding: 2%;
   background-color: #182848;
-  margin-right: 0%;
+  margin-right: -8%;
 }
 
 .navbar i {
@@ -326,6 +326,7 @@ footer img {
   .navbar{
     display: flex;
     justify-content: right;
+    right: 8%;
     width: 100%;
     padding: 3%;
     
@@ -401,6 +402,7 @@ footer img {
   .navbar{
     display: flex;
     justify-content: right;
+    right: 8%;
     width: 100%;
     padding: 3%;
  
