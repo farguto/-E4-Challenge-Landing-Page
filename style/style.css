@@ -326,8 +326,7 @@ footer img {
   .navbar{
     display: flex;
     justify-content: right;
-    width: 100%;
-    -webkit-width:93%;
+    width: 93%;
     padding: 3%;
     
   }
@@ -402,8 +401,7 @@ footer img {
   .navbar{
     display: flex;
     justify-content: right;
-    width: 100%;
-    -webkit-width:93%;
+    width: 93%;
     padding: 3%;
  
   }
